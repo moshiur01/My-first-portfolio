@@ -9,7 +9,7 @@ h1 {
 .name-color {
   color: #44f9ff;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -30,7 +30,7 @@ section {
 .hire-me-link {
   text-decoration: none;
   background-color: orange;
-  background-image: linear-gradient(#44f9ff, blue);
+  background-image: linear-gradient(blue, cyan);
   padding: 10px 40px;
   border-radius: 5px;
   color: white;
@@ -44,5 +44,33 @@ section {
   background-image: url(developer-portfolio-master/images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
-  backgr
+}
+.last-sec-h1 {
+  padding-left: 5%;
+}
+.xp {
+  background-image: url(developer-portfolio-master/images/back03.png);
+  background-repeat: no-repeat;
+}
+
+.xp-item {
+  box-shadow: 10px 10px 40px gray;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 40%;
+  border-left: 10px solid;
+}
+
+#dev-one {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(68, 68, 200), rgb(118, 138, 200));
+  border-image-slice: 1;
+}
+
+#dev-two {
+  order-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
 }
